@@ -1,6 +1,6 @@
 Insurance Data & Risk Analytics
 
-## Executive Summary
+## Summary
 An enterprise-style insurance analytics platform covering customers, policies, premium transactions, claims, claim events, payments, risk assessments, brokers and insured assets.
 
 The project follows a realistic analyst workflow:
@@ -65,4 +65,5 @@ python scripts/generate_data.py --scale-factor 1.0
 ## Data Disclaimer
 All data is synthetic and created solely for portfolio demonstration. No real insurer, customer, policy or claim data is used.
 
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/a9c90d82-e843-4107-9db1-bd3b9a2e5d8d" />
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/4aefc9c4-cd95-4650-bd2e-dcd5e3837a8a" />
+
