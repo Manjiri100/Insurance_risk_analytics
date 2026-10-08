@@ -1,4 +1,4 @@
-# Project 7 — Insurance Data & Risk Analytics
+Insurance Data & Risk Analytics
 
 ## Executive Summary
 An enterprise-style insurance analytics platform covering customers, policies, premium transactions, claims, claim events, payments, risk assessments, brokers and insured assets.
@@ -65,5 +65,4 @@ python scripts/generate_data.py --scale-factor 1.0
 ## Data Disclaimer
 All data is synthetic and created solely for portfolio demonstration. No real insurer, customer, policy or claim data is used.
 
-## Author
-**Manjiri Hundikar**
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/a9c90d82-e843-4107-9db1-bd3b9a2e5d8d" />
