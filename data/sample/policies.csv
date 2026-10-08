@@ -1,0 +1,4 @@
+policy_id,customer_id,broker_id,asset_id,policy_type,policy_start_date,policy_end_date,premium_amount,sum_insured,deductible,risk_band,geography,policy_status
+P000001,C000001,B00001,A000001,Motor,2025-01-01,2025-12-31,1240,30000,500,Medium,North,Active
+P000002,C000002,B00002,A000002,Motor,2025-02-15,2026-02-14,3100,65000,1000,High,West,Active
+P000003,C000003,B00003,A000003,Property,2024-06-01,2025-05-31,5400,250000,2500,Medium,South,Lapsed

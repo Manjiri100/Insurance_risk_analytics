@@ -1,0 +1,11 @@
+name: insurance_risk_analytics
+version: '1.0.0'
+config-version: 2
+profile: insurance_risk_analytics
+model-paths: ["models"]
+test-paths: ["tests"]
+models:
+  insurance_risk_analytics:
+    staging: {+materialized: view}
+    intermediate: {+materialized: table}
+    marts: {+materialized: table}

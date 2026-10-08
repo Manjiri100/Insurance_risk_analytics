@@ -1,0 +1,14 @@
+version: 2
+models:
+  - name: mart_policy_portfolio
+    columns:
+      - name: policy_id
+        tests: [unique, not_null]
+  - name: mart_claims_performance
+    columns:
+      - name: claim_id
+        tests: [unique, not_null]
+  - name: mart_data_trust
+    columns:
+      - name: entity
+        tests: [not_null]

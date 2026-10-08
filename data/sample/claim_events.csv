@@ -1,0 +1,4 @@
+claim_event_id,claim_id,event_timestamp,event_type,event_status,handler_id,notes_code
+CE000001,CL000001,2025-06-12T09:15:00,FNOL,Completed,H00001,FNOL_STD
+CE000002,CL000001,2025-06-13T11:00:00,Assessment,Completed,H00002,ASSESS_STD
+CE000003,CL000002,2025-08-20T10:10:00,Fraud Review,Open,H00003,FRAUD_HIGH

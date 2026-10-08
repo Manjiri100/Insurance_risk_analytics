@@ -1,0 +1,4 @@
+claim_id,policy_id,customer_id,claim_date,incident_date,claim_type,claim_status,claim_amount,approved_amount,sum_insured,fraud_flag,severity,geography
+CL000001,P000001,C000001,2025-06-12,2025-06-10,Accident,Settled,7200,6500,30000,0,Medium,North
+CL000002,P000002,C000002,2025-08-20,2025-08-18,Theft,Under Investigation,48000,0,65000,1,High,West
+CL000003,P000003,C000003,2025-01-09,2025-01-08,Property Damage,Closed,4200,3900,250000,0,Low,South

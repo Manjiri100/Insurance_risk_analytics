@@ -1,0 +1,4 @@
+payment_id,claim_id,payment_date,payment_type,payment_amount,payment_status,payment_reference
+PAY000001,CL000001,2025-06-20,Settlement,6500,Completed,REF001
+PAY000002,CL000003,2025-01-20,Settlement,3900,Completed,REF002
+PAY000003,CL000002,2025-08-25,Investigation Expense,450,Pending,REF003

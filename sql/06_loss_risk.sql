@@ -1,0 +1,2 @@
+SELECT p.policy_type,p.risk_band,SUM(p.premium_amount) earned_premium,COALESCE(SUM(c.approved_amount),0) incurred_claims,CASE WHEN SUM(p.premium_amount)<>0 THEN COALESCE(SUM(c.approved_amount),0)/SUM(p.premium_amount) END loss_ratio FROM policies p LEFT JOIN claims c ON p.policy_id=c.policy_id GROUP BY p.policy_type,p.risk_band;
+SELECT broker_id,geography,COUNT(*) policies,SUM(premium_amount) premium FROM policies GROUP BY broker_id,geography;

@@ -1,0 +1,1 @@
+SELECT c.claim_id,c.policy_id,c.claim_amount,c.approved_amount,c.fraud_flag,COALESCE(SUM(p.payment_amount),0) total_paid,COUNT(e.claim_event_id) event_count FROM stg_claims c LEFT JOIN stg_payments p ON c.claim_id=p.claim_id LEFT JOIN stg_claim_events e ON c.claim_id=e.claim_id GROUP BY c.claim_id,c.policy_id,c.claim_amount,c.approved_amount,c.fraud_flag;

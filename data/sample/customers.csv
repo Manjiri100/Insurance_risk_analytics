@@ -1,0 +1,4 @@
+customer_id,customer_type,date_of_birth,geography,customer_since,customer_status,income_band
+C000001,Individual,1987-04-12,North,2021-06-01,Active,Middle
+C000002,Individual,1978-09-03,West,2020-02-14,Active,High
+C000003,SME,1990-11-21,South,2023-01-10,Lapsed,Middle

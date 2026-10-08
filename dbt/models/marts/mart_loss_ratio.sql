@@ -1,0 +1,1 @@
+SELECT policy_type,risk_band,SUM(premium_amount) premium,SUM(approved_amount) approved_claims,CASE WHEN SUM(premium_amount)<>0 THEN SUM(approved_amount)/SUM(premium_amount) END loss_ratio FROM int_policy_financials GROUP BY policy_type,risk_band;

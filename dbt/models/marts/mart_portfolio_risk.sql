@@ -1,0 +1,1 @@
+SELECT p.policy_type,p.risk_band,COUNT(*) policies,SUM(p.premium_amount) premium,SUM(p.claim_amount) claims,AVG(COALESCE(r.risk_score,0)) risk_score FROM int_policy_financials p LEFT JOIN int_risk_signals r ON p.policy_id=r.policy_id GROUP BY p.policy_type,p.risk_band;

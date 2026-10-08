@@ -1,0 +1,4 @@
+transaction_id,policy_id,transaction_date,transaction_type,transaction_amount,payment_status
+T000001,P000001,2025-01-01,New Business,1240,Paid
+T000002,P000001,2025-07-01,Renewal Payment,620,Paid
+T000003,P000002,2025-02-15,New Business,3100,Paid

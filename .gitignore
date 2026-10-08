@@ -1,0 +1,10 @@
+data/generated/*
+!data/generated/.gitkeep
+__pycache__/
+*.pyc
+.env
+.venv/
+dbt/target/
+dbt/logs/
+*.pbix
+.DS_Store

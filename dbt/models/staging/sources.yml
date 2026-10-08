@@ -1,0 +1,14 @@
+version: 2
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: customers
+      - name: policies
+      - name: policy_transactions
+      - name: claims
+      - name: claim_events
+      - name: payments
+      - name: vehicles_assets
+      - name: brokers
+      - name: risk_assessments

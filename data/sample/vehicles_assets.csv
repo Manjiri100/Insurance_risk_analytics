@@ -1,0 +1,4 @@
+asset_id,customer_id,asset_type,asset_value,asset_age_years,usage_type,risk_category
+A000001,C000001,Vehicle,28500,4,Personal,Medium
+A000002,C000002,Vehicle,62000,9,Commercial,High
+A000003,C000003,Property,240000,12,Business,Medium

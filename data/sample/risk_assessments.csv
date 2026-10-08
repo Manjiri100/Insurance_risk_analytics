@@ -1,0 +1,4 @@
+risk_assessment_id,policy_id,assessment_date,risk_score,risk_band,assessment_source,model_version
+RA000001,P000001,2025-01-01,48,Medium,Underwriting,v3.1
+RA000002,P000002,2025-02-15,82,High,Underwriting,v3.1
+RA000003,P000003,2024-06-01,55,Medium,Underwriting,v3.0
